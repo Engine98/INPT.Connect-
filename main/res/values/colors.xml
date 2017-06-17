@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#795548</color>
+    <color name="colorPrimaryDark">#3E2723</color>
+    <color name="colorAccent">#827717</color>
+
+    <color name="Scree1">#FF5722</color>
+    <color name="Scren2">#FFEB3B</color>
+    <color name="Scren3">#009688</color>
+    <color name="Scren4">#03A9F4</color>
+
+    <color name="Scree1_Dark">#dd2c00</color>
+    <color name="Scree2_Dark">#FFD600</color>
+    <color name="Scree3_Dark">#00C853</color>
+    <color name="Scree4_Dark">#0091EA</color>
+
+    <color name="Scree1_Light">#FFAB91</color>
+    <color name="Scree2_Light">#FFF9C4</color>
+    <color name="Scree3_Light">#C8E6C9</color>
+    <color name="Scree4_Light">#B3E5FC</color>
+
+    <array name="Active">
+        <item>@color/Scree1_Light</item>
+        <item>@color/Scree2_Light</item>
+        <item>@color/Scree3_Light</item>
+        <item>@color/Scree4_Light</item>
+    </array>
+
+    <array name="Inactive">
+        <item>@color/Scree1_Dark</item>
+        <item>@color/Scree2_Dark</item>
+        <item>@color/Scree3_Dark</item>
+        <item>@color/Scree4_Dark</item>
+
+    </array>
+</resources>

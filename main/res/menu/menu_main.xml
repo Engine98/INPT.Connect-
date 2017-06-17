@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/Bottombaritemtwo"
+        android:title="Notifications"
+        android:icon="@drawable/ic_event_note_black_24dp" />
+    <item android:id="@+id/Bottombaritemone"
+        android:title="Connecter"
+        android:icon="@drawable/ic_bluetooth_black_24dp" />
+    <item android:id="@+id/Bottombaritemthree"
+        android:title="Prévisions"
+        android:icon="@drawable/ic_assessment_black_24dp" />
+    <item android:id="@+id/Bottombaritemfour"
+        android:title="Messagerie"
+        android:icon="@drawable/ic_perm_phone_msg_black_24dp" />
+    <item android:id="@+id/Bottombaritemfive"
+        android:title="Platforme"
+        android:icon="@drawable/ic_language_black_24dp" />
+</menu>

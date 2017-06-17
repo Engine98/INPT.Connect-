@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/machFirst"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:text="Machine 1 - OFF"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="43dp" />
+
+    <Button
+        android:id="@+id/machSecond"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:text="Machine 2 - OFF"
+        android:layout_below="@+id/machFirst"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:id="@+id/machThird"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:text="Machine 3 - OFF"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/machSecond"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/machFourth"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="49dp"
+
+        android:background="@android:color/holo_red_light"
+        android:text="Machine 4 - OFF"
+        android:layout_below="@+id/machThird"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

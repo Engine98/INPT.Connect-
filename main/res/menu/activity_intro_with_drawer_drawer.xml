@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mur"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Mur" />
+        <item
+            android:id="@+id/connection"
+            android:icon="@drawable/ic_bluetooth_black_24dp"
+            android:title="Connection" />
+        <item
+            android:id="@+id/stats"
+            android:icon="@drawable/ic_assessment_black_24dp"
+            android:title="Statistiques" />
+
+        <item
+            android:id="@+id/connect_internet"
+            android:icon="@drawable/ic_language_black_24dp"
+            android:title="Platforme" />
+    </group>
+
+    <item android:title="Messagerie">
+        <menu>
+            <item
+                android:id="@+id/bluetooth"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Bluetooth"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/mobile"
+                android:icon="@drawable/ic_perm_phone_msg_black_24dp"
+                android:title="Mobile"
+                android:checkable="true"/>
+        </menu>
+    </item>
+    <item android:title="Project">
+        <menu>
+            <item
+                android:id="@+id/aboutUs"
+                android:icon="@drawable/ic_face_black_24dp"
+                android:title="A propos de nous"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/contactUs"
+                android:icon="@drawable/ic_comment_black_24dp"
+                android:title="Contactez Nous"
+                android:checkable="true"/>
+        </menu>
+    </item>
+
+</menu>

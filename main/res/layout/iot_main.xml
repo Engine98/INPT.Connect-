@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/IoTtextView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/enterIP"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="enter the ip"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/refreshVolley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:text="REFRESH"
+        android:layout_below="@+id/enterIP"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:id="@+id/listFromVolley"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/refreshVolley"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/enterPort"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/enterIP"
+        android:ems="10"
+        android:hint="port"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/enterDomain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/enterPort"
+        android:ems="10"
+        android:hint="enter domain"
+        android:inputType="textPersonName" />
+
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true">
+
+        <RadioButton
+            android:id="@+id/radioDigital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="60dp"
+
+            android:checked="false"
+            android:text="DIGITAL"
+            android:visibility="visible" />
+
+        <RadioButton
+            android:id="@+id/radioAnalog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="60dp"
+            android:layout_toEndOf="@+id/radioDigital"
+            android:text="Analog"
+            android:visibility="visible" />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignParentStart="true" />
+
+    <ToggleButton
+        android:id="@+id/onOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="ToggleButton"
+        android:textOff="Turn off"
+        android:textOn="Turn On"
+        android:visibility="visible"
+        android:layout_below="@+id/pin"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/valueIfAnalog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:visibility="invisible"
+        android:layout_below="@+id/onOff"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/append"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add to message"
+        android:visibility="visible"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/append"
+        android:layout_marginTop="36dp"
+        android:visibility="visible"
+        android:layout_above="@+id/sendSMS" />
+
+    <Button
+        android:id="@+id/sendSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="send SMS"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
